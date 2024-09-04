@@ -1,0 +1,25 @@
+//To-Do & Debug
+# add animation & hover effect to homepage using Wowjs
+# fix table not responsive (Manage-subadmin, Manage-Teacher, Manage-Class, Enrollment, Visitor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

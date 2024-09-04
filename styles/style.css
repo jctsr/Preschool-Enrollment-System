@@ -1,0 +1,110 @@
+/* navbar */
+.navbar-brand:hover,
+.nav-item:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+/* home page */
+.card:hover {
+  box-shadow: 1px 2px 5px 6px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 1px 2px 5px 6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 1px 2px 5px 6px rgba(0, 0, 0, 0.24);
+  margin-top: -5px;
+  transition: .5s;
+}
+
+.line-after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  top: 50%;
+}
+
+.team-text {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 17px solid #e9d6d3;
+  border-radius: 250px;
+  transition: .5s;
+}
+
+.team-item:hover .team-text {
+  border-color: rgb(206, 136, 136);
+  cursor: pointer;
+}
+
+.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.btn-link:hover {
+  color: whitesmoke !important;
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+/* about page */
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/carousel-1.jpg) center center no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.breadcrumb-dashboard + .breadcrumb-dashboard::before {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.about-img img {
+  transition: .5s;
+}
+
+.about-img img:hover {
+  background: #FE5D37 !important;
+}
+
+/* admin navbar */
+.nav-dashboard .nav-item {
+  transform: scale(1);
+}
+
+/* create sub-admin form */
+.subadmin-form:hover, .manage-subadmin-card:hover{
+  margin-top: 0;
+  cursor: pointer;
+  box-shadow: none;
+  transform: none;
+}

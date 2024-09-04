@@ -1,0 +1,7 @@
+-Admin
+username = admin
+password admin
+
+-Sub Admin
+username = subadmin
+password = subadmin
